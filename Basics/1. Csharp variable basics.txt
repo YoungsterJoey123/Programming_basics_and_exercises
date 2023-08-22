@@ -1,0 +1,50 @@
+//comments are ignored when the computer runs the program, they are there to help you and other programmers understand your code
+// this is a line comment, everything after the // will be ignored
+/* this is a block comment, everything between the outer 2 characters will be ignored */
+
+
+//COPY THE CONTENTS OF THIS FILE INTO THE MAIN FUNCTION
+
+String /*variable type*/ iAmAString /*variable name*/;
+//the string variable iAmAString has now been initialized, but currently has nothing in it.
+//its not just empty, it's null, it doesn't even have a length of 0, it has no length
+//i now never need to write 'String iAmAString' again, i only need to write 'iAmAString' when i want to use it.
+
+iAmAString/*varible name*/ = "hello world"/*new varibale content*/;
+//the string variable iAmAString now contains something
+
+//the above two lines can be condensed to
+String iAmAString = "hello world";
+//I get an error on the line above because im trying to initialize a new string variable with the same name i used earlier,
+// you can comment it out to solve this error
+//(you can technically do this by having different scopes, but thats generally something to avoid for the sake of readability)
+
+iAmAString = "i have overwritten hello world";
+//this line overwrites the previous content in the string variable iAmAString
+
+iAmAString += " but now im adding more";
+//using += adds to the string variable iAmAString.
+//the above line is functionally identical to
+iAmAString = iAmAString + " but now im adding more";
+//you can also use -= when working with number variables
+
+//There are many variable types, but the ones you will be mostly working with are:
+//bool (boolean (true false))
+//int (integer (whole number))
+//float (floating point number (not whole numbers))
+//string (text)
+
+//EXERCISES
+
+
+//1
+
+//ask the user for their name and age using 2 sets of Console.WriteLine and Console.ReadLine commands, and save the responses in appropriate variables
+//i.e.
+
+Console.WriteLine("What is your favorite animal");
+string response = Console.ReadLine();
+
+//2
+//try to save the users age as an integer
+//hint Convert.ToInt32(number variable here)   (there are other technically more robust options but this is simplest)

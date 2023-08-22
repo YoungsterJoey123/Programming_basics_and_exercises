@@ -1,0 +1,55 @@
+Console.WriteLine("You can ask a programming language a yes no question in the form of a boolean statement.");
+Console.WriteLine("There are 5 ways to compare two things in programming: ==, >, >=, <, <=\n");
+
+
+if (1 == 2)
+{
+    Console.WriteLine("1 equals 2");
+}
+else
+{
+    Console.WriteLine("1 does not equal 2");
+}
+//why doesnt this work?
+//hint: try hovering your cursor over each number
+if ("1" == 2)
+{
+    Console.WriteLine("1 equals 2");
+}
+else
+{
+    Console.WriteLine("1 does not equal 2");
+}
+
+if ("1" == 2)
+{
+    Console.WriteLine("1 equals 2");
+}
+else if (1 == 2)
+{
+    Console.WriteLine("1 does not equal 2");
+}
+else
+{
+    Console.WriteLine("why did i end up down here?");
+}
+
+//EXERCISES
+
+//1
+//using Console.WriteLine ask the user if they would like ice cream, recieve the users answer with Console.ReadLine, save the answer in a variable, 
+// and respond according to their answer
+
+
+//2
+//make an if statement that determines if the random number is under or over 50
+Random rnd = new Random(); //starting up the random number generator
+int number = rnd.Next(0, 100); //generating a random number from 0 to 99, note that 100 is excluded
+
+//3
+//calculate total amount to pay to buy something
+//make a variable with the price of the object
+//if the price is under 50, no tax,
+//over 50 and under 2000, 20% tax
+//over 2000, 25% tax
+//save the result in a new variable and write it to the console.
