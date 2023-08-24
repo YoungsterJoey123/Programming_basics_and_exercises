@@ -17,13 +17,13 @@ for (int i = 0;/*this is the initializing counter, we use i to know how far into
 
 //while loop
 //while loops are used when you need to repeat a section of code an unknown number of times
-int i = 0;
-while(i < 5) //while loops only use the condition, and continue to run until the statement is false, 
+int n = 0;
+while(n < 5) //while loops only use the condition, and continue to run until the statement is false, 
 //this means you have to make sure that the condition becomes false at some point, or the loop will run forever.
 {
 	//this is the code that will be repeated some number of times, in this example it will be repeated 5 times
-	Console.WriteLine("Hello World " + i);
-	i++;
+	Console.WriteLine("Hello World " + n);
+	n++;
 }
 
 //exercises
