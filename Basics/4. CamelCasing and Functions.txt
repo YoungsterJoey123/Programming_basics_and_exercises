@@ -1,0 +1,40 @@
+//camel casing is the programming practice of using a capital letter when starting a new word in a variable
+//because we cant use spaces. Variable names also start with a lower case letter to make them easily recognized as being a variable
+//i.e. 
+int iAmAVariableName = 0;
+
+//Functions in programming are standardised, reuable ways of handling a certain thing with different parameters.
+//A function can also return a variable containing the result of the function.
+//writing a function takes the following format:
+int/*the return type*/ Addition/*the function name*/(int/*parameter type*/ parameter1/*parameter name*/,/*comma to seperate parameters*/ int/*parameter type*/ parameter2/*parameter name*/)
+{
+    return parameter1/*the parameter name now functions like a constant variable for the value given in the function call*/ + parameter2;
+}
+Console.WriteLine(Addition(5, 8)/*a function call*/)/*inside another function call*/;
+//functions can also return the void type, meaning they dont have a return statement like above, either having no return at all, or an "empty" return
+void /*the return type*/ VoidAddition/*the function name*/(int/*parameter type*/ parameter1/*parameter name*/,/*comma to seperate parameters*/ int/*parameter type*/ parameter2/*parameter name*/)
+{
+    int sum = parameter1 + parameter2;
+    return;
+}
+//Console.WriteLine(VoidAddition(5, 8));
+//This function call doesnt work because the return type of the function, void, cannot be turned into a string for the WriteLine function
+//However i can still call the function on its own
+VoidAddition(5, 8);
+//i just dont get any visible or useable result returned, but the calculation still happens
+
+
+//------------EXERCISES--------------
+
+//E1
+//Your first task is to write a function that returns the result of two floats subtracted from each other
+
+
+//E2
+//Next write a function that takes takes two strings as parameters, a firstname and lastname, and returns the full name
+
+
+//E3
+//https://programmering.systime.dk/?id=163#c1101 in a function taking the paid amount and the amount to pay as parameters.
+//return a string with the amount of different cash types to be returned
+

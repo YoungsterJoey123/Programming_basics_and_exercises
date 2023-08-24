@@ -1,0 +1,88 @@
+//E1
+//A bank has asked you to make a program that displays the value of an account with 10000$ in it after every year for
+//a 50 year period with a 2% compounding interest
+//use a for-loop to complete the task
+//afterwards try incorporating a yearly 1000$ deposit into the account
+
+
+//E2
+//make a program to calculate your age in seconds, given your birthday as 3 variables, birth year, birth month, birth day.
+//you can ignore leap years
+//hint: start with whole years, add excess days, then multiply to get to seconds.
+//hint: make an array containing the number of days in each month
+//you can get the current date information with the following functions (excluding '.ToString()' )
+Console.WriteLine("year: " + DateTime.Now.Year.ToString());
+Console.WriteLine("month: " + DateTime.Now.Month.ToString());
+Console.WriteLine("day: " + DateTime.Now.Day.ToString());
+Console.WriteLine("hour: " + DateTime.Now.Hour.ToString());
+Console.WriteLine("minute: " + DateTime.Now.Minute.ToString());
+Console.WriteLine("second: " + DateTime.Now.Second.ToString());
+
+//E3
+//Youve been hired by the pokemon company to create the next generations pokemon names.
+//But unfortunately youve procrastinated and dont have time to come up with 500 new names manually,
+//so you decide to write a program to randomly generate the names from the english alphabet,
+//with a random length between 4 and 18 characters.
+//write the names to the console
+
+//i can build my own name using parts of the alphabet
+string alphabet = "QWERTYUIOPASDFGHJKLZXCVBNM";
+string myName = string.Empty;
+myName += alphabet[17];
+myName += alphabet[10];
+myName += alphabet[11];
+myName += alphabet[9];
+myName += alphabet[2];
+myName += alphabet[3];
+Console.WriteLine(myName);
+
+
+//E4
+//Unfortunately your bosses at the pokemon company werent happy with your names that contain no vowels,
+//so now you'll have to adapt your previous code to make sure you include at least one vowel somewhere in the name (you cant just start or end every name with a vowel)
+//make a copy of your code and keep it separate from the original
+//Now in your spare copy use the Contains (example follows) function to check each position in the name of the pokemon to see if it has a vowel
+//if it does NOT contain any vowels replace a random letter in the name with a vowel
+string vowels = "AEIOU";
+for (int i = 0; i < myName.Length; i++)
+{
+    if (vowels.Contains(myName[i]))
+    {
+        Console.WriteLine(myName[i] + " is a vowel");
+    }
+    else
+    {
+        Console.WriteLine(myName[i] + " is not a vowel");
+    }
+}
+
+
+//E5
+//complete the pokemon name vowel inclusion exercise with including the positions of the vowels in the name generation
+//then use even more random number generation. 
+
+
+//E6
+//Retrofit your pokemon name generator to be a function, with the length of the names as a parameter
+
+
+//E7
+//include the leap years in your age calculators (DateTime.IsLeapYear(year) returns a boolean(true/false) for if it is or isn't)
+
+
+//E8 
+//Write functions that recreate the results of multiplcation, division(with remainder), and faculty, using only plus and minus with loops
+
+//E9
+//create a program that generates a random whole number between 1 and 10 (the Next function exludes the max value), 
+//then make the player try to guess the number over and over until they guess correctly (using Console.ReadLine to get player input)
+int intOne = 1;
+string consoleLine = Console.ReadLine();
+if (intOne.ToString() == stringOne)//turning the number into a string
+{
+    Console.WriteLine("succesful comparison");
+}
+if (intOne == Int32.Parse(stringOne))//turning the string into a number
+{
+    Console.WriteLine("succesful comparison");
+}
