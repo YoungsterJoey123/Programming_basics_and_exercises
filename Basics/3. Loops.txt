@@ -9,7 +9,7 @@
 //the following for loop is seperated into multiple lines for the sake of readability, its usually written on one line
 for (int i = 0;/*this is the initializing counter, we use i to know how far into the loop we are*/
      i < 5; /*this is the condition, the loop continues so long as this statement remains true*/
-     i++; /*this is the incrementing statement, you will almost always be incrementing the same varible you initialized, and almost always by 1*/)
+     i++ /*this is the incrementing statement, you will almost always be incrementing the same varible you initialized, and almost always by 1*/)
 {
 	//this is the code that will be repeated some number of times, in this example it will be repeated 5 times
 	Console.WriteLine("Hello World " + i);
