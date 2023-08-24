@@ -1,0 +1,47 @@
+//Copy contents into a main function
+
+//When we want to repeat something several times in programming, we dont copy paste it, we use loops
+//there are two primary types of loops, for loops and while loops
+
+//for loop
+//for loops are mostly used when you know exactly how many times you want to repeat a piece of code
+
+//the following for loop is seperated into multiple lines for the sake of readability, its usually written on one line
+for (int i = 0;/*this is the initializing counter, we use i to know how far into the loop we are*/
+     i < 5; /*this is the condition, the loop continues so long as this statement remains true*/
+     i++; /*this is the incrementing statement, you will almost always be incrementing the same varible you initialized, and almost always by 1*/)
+{
+	//this is the code that will be repeated some number of times, in this example it will be repeated 5 times
+	Console.WriteLine("Hello World " + i);
+}
+
+//while loop
+//while loops are used when you need to repeat a section of code an unknown number of times
+int i = 0;
+while(i < 5) //while loops only use the condition, and continue to run until the statement is false, 
+//this means you have to make sure that the condition becomes false at some point, or the loop will run forever.
+{
+	//this is the code that will be repeated some number of times, in this example it will be repeated 5 times
+	Console.WriteLine("Hello World " + i);
+	i++;
+}
+
+//exercises
+
+//E1
+//write a for loop that counts from 0 to 99 and displays it in the console
+
+//E2 
+//modify the for loop from E1 to count from 1 to 100
+
+//E3
+//write a for loop that only counts even numbers from 0 to 100
+
+//E4
+//write a while loop that continues to run until a random number generator generates a number greater than 90
+
+//E5
+//A bank has asked you to make a program that displays the value of an account with 10000$ in it after every year for
+//a 50 year period with a 2% compounding interest
+//use a for-loop to complete the task
+//afterwards try incorporating a yearly 1000$ deposit into the account
