@@ -87,3 +87,25 @@ if (intOne == Int32.Parse(stringOne))//turning the string into a number
 {
     Console.WriteLine("succesful comparison");
 }
+
+//E10
+Build a function to house your age in seconds calculator, taking the birth day, month, and year, as parameters
+
+//E11
+//https://programmering.systime.dk/?id=163#c1100
+
+//E12
+//https://programmering.systime.dk/?id=162#c847 hint: compare letters from each end towards the center
+//remember individual characters in strings can be referenced like variables in an array
+
+//E13
+//https://programmering.systime.dk/?id=162#c1088 hint: 
+string iAmAString = "i have overwritten hello world";
+iAmAString.Contains("world");
+
+//E14
+//Write two functions, one for converting celsius to farenheit, and another for the reverse, returning the converted value for both functions
+
+//E15
+//Write a function that uses a loop to recieve number inputs from the user, but only saves the highest number, 
+//return the highest input number and end the function when the user inputs "Quit"
