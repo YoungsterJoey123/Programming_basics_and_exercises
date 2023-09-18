@@ -1,0 +1,11 @@
+Create a flowchart for E1
+
+Write pseudo code for E2
+
+Create a flowchart for https://programmering.systime.dk/?id=163#c1101
+
+Write pseudo code and create a flowchart for making a cup of tea
+	Pretend that youre describing the process to an incredibly dumb robot, 
+	it has basic motor skills and can recognize objects, but has no clue how to handle anything
+
+Write pseudo code and create a flowchart for brewing a pot of coffee for the same robot as above
