@@ -121,3 +121,7 @@ iAmAString.Contains("world");
 //***
 //****
 //*****
+
+//E18
+//Using the description on the following webpage, write a function to convert a whole positive number to binary
+//https://www.rapidtables.com/convert/number/decimal-to-binary.html
