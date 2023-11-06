@@ -125,3 +125,16 @@ iAmAString.Contains("world");
 //E18
 //Using the description on the following webpage, write a function to convert a whole positive number to binary
 //https://www.rapidtables.com/convert/number/decimal-to-binary.html
+
+//E19
+//https://programmering.systime.dk/?id=162#c847 hint: compare letters from each end towards the center
+//remember individual characters in strings can be referenced like variables in an array
+
+//E20
+//https://programmering.systime.dk/?id=162#c1088 
+
+//E21
+//https://programmering.systime.dk/?id=162#c1090
+
+//E22
+//https://programmering.systime.dk/?id=162#c1097

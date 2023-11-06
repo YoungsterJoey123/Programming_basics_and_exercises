@@ -1,0 +1,30 @@
+//https://programmering.systime.dk/?id=222
+//an Array is a collection of something, a class (we'll come back to that), a string, a number
+//what makes them convenient is that you don't need a variable name for each thing in the array, just the array itself
+//arrays are created as follows:
+int[]/*datatype + []*/ integerArray /*array name*/ = new int[32]; /*= new datatype[number of spots in the array]*/
+//the above line creates an array with 32 empty spots, indexed(their place in the array) 0 to 31
+//to fill the array with something we can use a for loop
+for (int i = 0; i < integerArray.Length/*array name.length tells the program how long the array is*/; i++)
+{
+    integerArray[i]/*array name[some number] tells the program "this is spot some number, in the array" */ = i; 
+}
+//now try using console.writeline to print out the contents of the array using a for loop
+
+
+
+
+//strings can be treated as arrays of characters in some programming languages, including c#
+//strings and characters can also be added togther to create larger strings
+string string1 = "hello ";
+string string2 = "world!";
+string string3 = string1 + string2;
+Console.WriteLine(string3);
+//try flipping the flipMe string, and store the result in flippedString
+string flipMe = "I am a string";
+string flippedString = string.Empty;
+for (int i = flipMe.Length-1; i >=0 ; i--) //read this carefully
+{
+    
+}
+Console.WriteLine(flippedString);
