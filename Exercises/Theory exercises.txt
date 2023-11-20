@@ -1,6 +1,7 @@
-Create a flowchart for E1
+tCreate a flowchart for E1
 
 Write pseudo code for E2
+tag idags årstal, månede og dato og minus din fødselsdato også lav dem om til sekunder, så plus dem sammen til sidst
 
 Create a flowchart for https://programmering.systime.dk/?id=163#c1101
 
